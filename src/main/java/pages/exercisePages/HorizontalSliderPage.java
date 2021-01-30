@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class HorizontalSliderPage {
     private WebDriver driver;
     private By sliderBar = By.xpath("//input[@type='range']");
-    //sliderBar By cssSelector =  ".sliderContainer input"
+    //sliderBar By cssSelector =  ".sliderContainer input" // Alternatively, you can use cssSelector
     private By sliderValue = By.xpath("//span[@id='range']");
 
     public HorizontalSliderPage(WebDriver driver) {

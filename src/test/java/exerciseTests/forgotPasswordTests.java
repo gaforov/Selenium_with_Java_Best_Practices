@@ -14,4 +14,5 @@ public class forgotPasswordTests extends BaseTests {
         var emailSentPage = forgotPasswordPage.clickRetrievePassword();
         assertTrue(emailSentPage.emailSentMessageText().contains("Your e-mail's been sent!"),"Message text is incorrect");
     }
+
 }

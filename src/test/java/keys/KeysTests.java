@@ -22,4 +22,5 @@ public class KeysTests extends BaseTests {
         assertEquals(keyPage.getResult(), "π = 3.14", "Incorrect symbol entered");
     }
 
+
 }
