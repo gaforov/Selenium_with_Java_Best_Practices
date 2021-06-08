@@ -13,7 +13,7 @@ public class AlertTests extends BaseTests {
         var alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerAlert();
         alertsPage.acceptAlert();
-        assertEquals(alertsPage.getResultText(),"You successfuly clicked an alert","Result message is incorrect");
+        assertEquals(alertsPage.getResultText(),"You successfully clicked an alert","Result message is incorrect");
     }
 
     @Test
